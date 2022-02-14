@@ -1,0 +1,76 @@
+/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0;
+    padding:0;
+}
+html,body {
+    margin:0;
+    padding:0;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+fieldset,img { 
+    border:0;
+}
+input{
+    border:1px solid #b0b0b0;
+    padding:3px 5px 4px;
+    color:#979797;
+    width:190px;
+}
+address,caption,cite,code,dfn,th,var {
+    font-style:normal;
+    font-weight:normal;
+}
+ol,ul {
+    list-style:none;
+}
+caption,th {
+    text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:normal;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym { border:0;
+}
+.heading{
+    border-block-end-width: 0ch;
+    background-color: D18C1D;
+    font-size: 4.01942vw;
+    padding: 10px;
+    border: blueviolet solid 1px
+}
+.heading{text-align: center;}
+.box{
+    background-color: #d1d631;
+    width: 600;
+    height: 400;
+    padding: 20px;
+    border: black dotted 2px;
+    text-align: center;
+    border-radius: 30px;
+}
+.img{
+    text-align: center;
+    border-radius: 30px;
+    margin: 20px;
+}
+.dot {
+        height: 100px;
+        width: 100px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 50px;
+  }
+  .link{
+      display: inline;
+      border: blue dashed 3px;
+      background: color #a1a1a1;;
+  }
