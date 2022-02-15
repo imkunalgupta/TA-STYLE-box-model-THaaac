@@ -1,0 +1,125 @@
+/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0;
+    padding:0;
+}
+html,body {
+    margin:0;
+    padding:0;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+fieldset,img { 
+    border:0;
+}
+input{
+    border:1px solid #b0b0b0;
+    padding:3px 5px 4px;
+    color:#979797;
+    width:190px;
+}
+address,caption,cite,code,dfn,th,var {
+    font-style:normal;
+    font-weight:normal;
+}
+ol,ul {
+    list-style:none;
+}
+caption,th {
+    text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:normal;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym { border:0;
+}
+
+/* Custom Styles */
+ body{
+     line-height: 1.5;
+     font-size: 16px;
+     color: #fff;
+     
+ }
+ .container {
+     width: 1160px;
+     margin: 0 auto ;
+ }
+ hr {
+     margin: 32px auto;
+     border: 0;
+     border-bottom: 2px solid #999;
+ }
+ /* Header */
+ .header{
+     background-color: #2e313f;
+     text-align: center;
+     padding: 32px 0;
+ }
+ h1{
+     font-size: 36px;
+     margin-bottom: 16px;
+ }
+ .header a {
+     font-size: 20px;
+     color: #fff;
+     text-decoration: none;
+     margin: 0 16px;
+ }
+ .hero{
+     background-color: #2e313f;
+     padding: 120px 0;
+ }
+ .hero-heading{
+     font-size: 32px;
+     text-transform: uppercase;8
+ }
+ .hero-text {
+     text-transform: uppercase;
+     color: #ccc;
+     font-size: 20px;
+ }
+ img {
+     width: 260px;
+     height: 260px;
+     border-radius: 50%;
+     object-fit: cover;
+ }
+ .blog {
+     background-color: blueviolet;
+     padding: 60px 0;
+ }
+ .heading{
+    font-size: 24px;
+    text-transform: uppercase; 
+    margin-bottom: 24px;
+ }
+ .article-text {
+     color: #ccc;
+     font-size: 20px;
+     margin-bottom: 24px;
+ }
+ .article-link {
+     color: white;
+     font-size: 20px;
+     text-transform: uppercase;
+     text-decoration: none;
+ }
+ .blog-two {
+     background-color: #45548d;
+ }
+ .blog-three {
+     background-color: #3f4e85;
+ }
+ .footer {
+     background-color: #2e313f;
+     padding: 60px 0;
+     font-size: 20px;
+     color: #ccc;
+ }
